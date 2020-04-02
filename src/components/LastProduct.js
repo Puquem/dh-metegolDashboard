@@ -50,7 +50,7 @@ class LastProduct extends Component{
                 </div>
                 <div className="card-body">
                     <div className="text-center">
-                        <img className="img-fluid px-3 px-sm-4 mt-3 mb-4" style={{width:"25rem"}} src={`http://localhost:3000/images/fields/${this.state.image1}`}/> 
+                        <img className="img-fluid px-3 px-sm-4 mt-3 mb-4" style={{width:"25rem"}} src={`http://localhost:3000/images/fields/${this.state.image1}`}alt=""/> 
                     </div>
                     <h3>Nombre: {this.state.name}</h3>
                     <p>Precio: ${this.state.price}</p>
